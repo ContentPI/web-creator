@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "lint": "eslint --ext .tsx,.ts ./packages/**/src",
-    "lint:fix": "eslint --ext .tsx,.ts ./packages/**/src",
+    "lint:fix": "eslint --fix --ext .tsx,.ts ./packages/**/src",
     "utils:webpack:development": "webpack --config=webpack.config.ts --env mode=production --env type=package --env packageName=utils",
     "utils:webpack:production": "webpack --config=webpack.config.ts --env mode=production --env type=package --env packageName=utils"
   },
